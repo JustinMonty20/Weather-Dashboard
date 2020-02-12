@@ -1,0 +1,22 @@
+section {
+    background-color: grey;
+    display: -webkit-flex;
+    display: flex;
+}
+article {
+    --webkit-flex: 3;
+    flex: 3;
+    padding: 10px;
+
+} 
+#search-container{
+float: left;
+width: 20%;
+height: auto;
+background-color: grey;
+padding-bottom: 920px;
+}
+
+#city-holder{
+    
+}
