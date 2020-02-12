@@ -18,5 +18,10 @@ padding-bottom: 920px;
 }
 
 #city-holder{
-    
+  float: left;
+  margin-left: 10px;
 }
+
+/* .cities{
+    border: 1px dashed black;
+} */
