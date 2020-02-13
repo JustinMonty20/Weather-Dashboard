@@ -1,23 +1,19 @@
 var now = moment().format("MM/DD/YYYY")
-
+var city;
 
 $("#cities-form").submit(function(e){
     e.preventDefault();
-    var city = $("#userPick").val()
+    city = $("#userPick").val()
     todaysWeather(city);
     populateList();
 })
 
 $("#clear-text").on("click", function(e){
-    console.log(e)
     $(".cities").text("");
     $("#search-history").text("");
 
 });
-$("#search-history").on("click", function(e){
-   var cityName = $(this).attr("data-city");
-   console.log(cityName);
-})
+
 // When they submit the city to view the weather I want to call the function that gets the desired information using ajax. 
 // and then call the function that prints the information to my city holder div in index.html
 
@@ -39,6 +35,7 @@ function todaysWeather(city) {
 
         specificCity.prepend(header, icon, pTemp, pHumidity, pWindSpeed);
         $(".cities").prepend(specificCity);
+        specificCity.addClass("city-display");
     }) 
 }
 
@@ -52,3 +49,8 @@ function populateList() {
     listEl.addClass("listItems")
    
 }
+
+$("#search-history").on("click", function(e){
+    var cityName = e.target.textContent
+    todaysWeather(cityName)
+})

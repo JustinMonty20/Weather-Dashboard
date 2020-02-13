@@ -14,9 +14,9 @@ float: left;
 width: 20%;
 height: auto;
 background-color: grey;
-padding-bottom: 920px;
-}
+padding-bottom: 700px;
 
+}
 #city-holder{
   float: left;
   margin-left: 10px;
@@ -37,7 +37,12 @@ margin-top: 10px;
     border-radius:12px;
     margin-bottom: 10px;
     width: 100px;
-   
+}
+.city-display{
+    margin: 10px 0 10px 10px;
+    background-color:rgb(255, 0, 212);
+    color: rgb(245, 245, 245);
+   padding: 0 20px 0 20px;
 }
 
 /* .cities{
