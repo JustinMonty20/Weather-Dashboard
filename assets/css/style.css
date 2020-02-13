@@ -21,6 +21,24 @@ padding-bottom: 920px;
   float: left;
   margin-left: 10px;
 }
+#clear-form{
+position: relative;
+margin-top: 10px;
+}
+
+#search-history{
+    margin-top: 40px;
+    list-style: none;
+    display: block;
+    
+}
+.listItems{
+    background-color: whitesmoke;
+    border-radius:12px;
+    margin-bottom: 10px;
+    width: 100px;
+   
+}
 
 /* .cities{
     border: 1px dashed black;
