@@ -31,7 +31,7 @@ function todaysWeather(city) {
         var pTemp = $("<p> Temperature: " + city.main.temp + " F </p>") 
         var pHumidity = $("<p> Humidity: " + city.main.humidity + "</p>")
         var pWindSpeed = $("<p> Wind Speed: " + city.wind.speed + " mph </p>")
-
+        console.log(city);
 
         specificCity.prepend(header, icon, pTemp, pHumidity, pWindSpeed);
         $(".cities").prepend(specificCity);
