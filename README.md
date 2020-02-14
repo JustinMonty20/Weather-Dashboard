@@ -1,6 +1,6 @@
-![](./assets/screen-shots/weather-dashboard1)
+![](./assets/screen-shots/weather-dashboard1.png)
 
-![](./assets/screen-shots/weather-dashboard2)
+![](./assets/screen-shots/weather-dashboard2.png)
 
 1. User will open the page and a search bar will be on the left instructing them to enter a city. 
 
